@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="CheckmarkableCell" rowHeight="44" id="RN8-6P-c2T" customClass="CheckmarkableCell" customModule="NewsAgregator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RN8-6P-c2T" id="gyX-HO-4gZ">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgU-EZ-Kv4">
+                        <rect key="frame" x="15" y="15" width="384" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="LgU-EZ-Kv4" secondAttribute="bottom" constant="15" id="0kO-q9-Ph3"/>
+                    <constraint firstItem="LgU-EZ-Kv4" firstAttribute="top" secondItem="gyX-HO-4gZ" secondAttribute="top" constant="15" id="Jab-cP-Sg7"/>
+                    <constraint firstItem="LgU-EZ-Kv4" firstAttribute="leading" secondItem="gyX-HO-4gZ" secondAttribute="leading" constant="15" id="Mf4-pF-fSI"/>
+                    <constraint firstAttribute="trailing" secondItem="LgU-EZ-Kv4" secondAttribute="trailing" constant="15" id="Sjg-Zq-19c"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="LgU-EZ-Kv4" id="hjt-y6-8Dz"/>
+            </connections>
+            <point key="canvasLocation" x="-376.81159420289856" y="-415.17857142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_NewsAgregatorTests {
+  umbrella header "Pods-NewsAgregatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

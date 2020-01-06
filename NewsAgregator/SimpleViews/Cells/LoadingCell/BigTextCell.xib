@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BigTextCell" rowHeight="63" id="RN8-6P-c2T" customClass="BigTextCell" customModule="NewsAgregator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RN8-6P-c2T" id="gyX-HO-4gZ">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVX-2M-KsG">
+                        <rect key="frame" x="57" y="15" width="300" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="LAo-Ok-s4g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cVX-2M-KsG" secondAttribute="bottom" constant="15" id="8nl-JB-wkF"/>
+                    <constraint firstItem="cVX-2M-KsG" firstAttribute="top" secondItem="gyX-HO-4gZ" secondAttribute="top" constant="15" id="Qgj-Yn-1fp"/>
+                    <constraint firstItem="cVX-2M-KsG" firstAttribute="centerX" secondItem="gyX-HO-4gZ" secondAttribute="centerX" id="VgO-Yw-3fu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="cVX-2M-KsG" id="gnT-IL-Ggs"/>
+            </connections>
+            <point key="canvasLocation" x="-376.81159420289856" y="-408.81696428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

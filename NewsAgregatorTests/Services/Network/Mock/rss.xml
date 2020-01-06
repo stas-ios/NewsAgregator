@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <language>ru</language>
+    <title>Lenta.ru : Новости</title>
+    <description>Новости, статьи, фотографии, видео. Семь дней в неделю, 24 часа в сутки.</description>
+    <link>https://lenta.ru</link>
+    <image>
+      <url>https://assets.lenta.ru/small_logo.png</url>
+      <title>Lenta.ru</title>
+      <link>https://lenta.ru</link>
+      <width>134</width>
+      <height>22</height>
+    </image>
+    <atom:link rel="self" type="application/rss+xml" href="http://lenta.ru/rss"/>
+<item>
+  <guid>https://lenta.ru/news/2020/01/05/gre_mak/</guid>
+  <title>Газ по «Турецкому потоку» дошел до Греции и Северной Македонии</title>
+  <link>https://lenta.ru/news/2020/01/05/gre_mak/</link>
+  <description>
+    <![CDATA[Греция и Северная Македония начали получать газ по «Турецкому потоку». Поставки российского газа Болгарии, Греции и Северной Македонии осуществляются через точку «Странджа 2» на границе с Турцией. Мощности Трансбалканского газопровода, на смену которому пришел «Турецкий поток», на данный момент не задействованы. ]]>
+  </description>
+  <pubDate>Sun, 05 Jan 2020 18:26:17 +0300</pubDate>
+  <enclosure url="https://icdn.lenta.ru/images/2020/01/05/18/20200105181813368/pic_ef9b23346e4fd12b80640014aeea413a.jpg" type="image/jpeg" length="105022"/>
+  <category>Экономика</category>
+</item>
+<item>
+  <guid>https://lenta.ru/news/2020/01/05/bolshunov/</guid>
+  <title>Россиянин Большунов выиграл гонку «Тур де Ски»</title>
+  <link>https://lenta.ru/news/2020/01/05/bolshunov/</link>
+  <description>
+    <![CDATA[Российский лыжник Александр Большунов стал победителем многодневки «Тур де Ски», прошедшей в итальянском Валь-ди-Фьемме. Спортсмен стал четвертым в масс-старте, который был последним этапом гонки. Он отстал от победившего норвежца Симена Крюгера, однако опередил лидировавшего в общем зачете Йоханнеса Клэбо.]]>
+  </description>
+  <pubDate>Sun, 05 Jan 2020 18:10:00 +0300</pubDate>
+  <enclosure url="https://icdn.lenta.ru/images/2020/01/05/18/20200105181006765/pic_861f36a85a16b4d4d1426e2cb096becc.jpg" type="image/jpeg" length="69358"/>
+  <category>Спорт</category>
+</item>
+<item>
+  <guid>https://lenta.ru/news/2020/01/05/saudi/</guid>
+  <title>Убийство Сулеймани обвалило крупнейшую нефтяную державу</title>
+  <link>https://lenta.ru/news/2020/01/05/saudi/</link>
+  <description>
+    <![CDATA[Акции крупнейшей нефтяной компании Saudi Aramco упали до минимума на фоне убийства американцами иранского генерала Касема Сулеймани. По итогам торгов на бирже Эр-Рияда 5 января акции упали на 1,7 процента — 34,55 риала за бумагу (около 9,2 доллара или 570 рублей). Это худший показатель с момента IPO.]]>
+  </description>
+  <pubDate>Sun, 05 Jan 2020 17:58:00 +0300</pubDate>
+  <enclosure url="https://icdn.lenta.ru/images/2020/01/05/17/20200105175323452/pic_e8aaa9dcd82aa01787313928f26eaa4c.png" type="image/png" length="189584"/>
+  <category>Экономика</category>
+</item>
+  </channel>
+</rss>

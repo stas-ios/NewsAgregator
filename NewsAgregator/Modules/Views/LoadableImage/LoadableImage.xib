@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="P1G-bQ-JIB" customClass="LoadableImageView" customModule="NewsAgregator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="TDU-np-xlf">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                </imageView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="79v-x0-9rN">
+                    <rect key="frame" x="115" y="115" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TDU-np-xlf" secondAttribute="bottom" id="8IH-o6-hAl"/>
+                <constraint firstItem="79v-x0-9rN" firstAttribute="centerX" secondItem="P1G-bQ-JIB" secondAttribute="centerX" id="TmF-cr-Aes"/>
+                <constraint firstItem="TDU-np-xlf" firstAttribute="leading" secondItem="P1G-bQ-JIB" secondAttribute="leading" id="VRz-Gi-Vj6"/>
+                <constraint firstAttribute="trailing" secondItem="TDU-np-xlf" secondAttribute="trailing" id="YGg-U1-v9q"/>
+                <constraint firstItem="79v-x0-9rN" firstAttribute="centerY" secondItem="P1G-bQ-JIB" secondAttribute="centerY" id="YMX-BQ-Vwp"/>
+                <constraint firstItem="TDU-np-xlf" firstAttribute="top" secondItem="P1G-bQ-JIB" secondAttribute="top" id="v6x-dY-kGT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="TDU-np-xlf" id="uIu-DH-YZK"/>
+                <outlet property="loader" destination="79v-x0-9rN" id="8Yj-uI-bLY"/>
+            </connections>
+            <point key="canvasLocation" x="-68.115942028985515" y="-153.34821428571428"/>
+        </view>
+    </objects>
+</document>

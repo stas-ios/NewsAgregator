@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>147520313350-e0tig41p5sm9kgfu0o773q2fh6n5no5c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.147520313350-e0tig41p5sm9kgfu0o773q2fh6n5no5c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBfIfqVPM3yXLRL0jR9xZcCH1Hph5fC1Us</string>
+	<key>GCM_SENDER_ID</key>
+	<string>147520313350</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.ssmirnov.NewsAgregator</string>
+	<key>PROJECT_ID</key>
+	<string>testnewsagregator</string>
+	<key>STORAGE_BUCKET</key>
+	<string>testnewsagregator.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:147520313350:ios:81a11624e8fd88dde78b87</string>
+	<key>DATABASE_URL</key>
+	<string>https://testnewsagregator.firebaseio.com</string>
+</dict>
+</plist>

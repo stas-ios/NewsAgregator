@@ -1,0 +1,22 @@
+{
+  "name": "Viper",
+  "version": "0.1.0",
+  "summary": "Base classes for a kind of VIPER-like architecture",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/stas-ios/Viper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stas-ios": "stas.inse@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/stas-ios/Viper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Viper/Classes/**/*"
+}
