@@ -1,0 +1,11 @@
+framework module XMLCoder {
+  umbrella header "XMLCoder-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module XMLCoder.Swift {
+    header "XMLCoder-Swift.h"
+    requires objc
+}

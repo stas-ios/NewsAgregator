@@ -11,7 +11,7 @@ import UIKit
 ///Методы UINavigationController-а, доступные роутерам модулей-координаторов
 public protocol NavigationRouterToViewProtocol {
     func pushViewController(_ viewController: UIViewController, animated: Bool)
-    func popViewController(animated: Bool) -> UIViewController?
+    @discardableResult func popViewController(animated: Bool) -> UIViewController?
     func setViewControllers(_ viewControllers: [UIViewController], animated: Bool)
 }
 
